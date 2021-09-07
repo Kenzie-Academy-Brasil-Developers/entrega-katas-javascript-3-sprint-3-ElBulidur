@@ -290,7 +290,7 @@ function kataBonus1() {
     divBonus.setAttribute("class", "kataBonus");
     let pBonus = document.createElement("p");
     pBonus.setAttribute("class", "pBonus");
-    pBonus.innerText = "BONUS 1";
+    pBonus.innerText = "BONUS 1 - Exibir 20 retângulos cinza sólido, cada um com 20px de altura e 100px de largura.";
     divBonus.appendChild(pBonus);
 
     for(let i =1;i<=20;i++){
@@ -315,7 +315,7 @@ function kataBonus2() {
     divBonus.setAttribute("class", "kataBonus");
     let pBonus = document.createElement("p");
     pBonus.setAttribute("class", "pBonus");
-    pBonus.innerText = "BONUS 2";
+    pBonus.innerText = "BONUS 2 - Exibir 20 retângulos cinza sólido, cada um com 20px de altura e larguras variando uniformemente de 105px a 200px, com o intervalo de 5px entre cada retangulo.";
     divBonus.appendChild(pBonus)
     for(let i =105;i<=200;i++){
       let box = document.createElement("div");
@@ -340,7 +340,7 @@ function kataBonus3(array) {
     divBonus.setAttribute("class", "kataBonus");
     let pBonus = document.createElement("p");
     pBonus.setAttribute("class", "pBonus");
-    pBonus.innerText = "BONUS 3";
+    pBonus.innerText = "BONUS 3 - Exibir 20 retângulos cinza sólido, cada um com 20px de altura e com larguras em pixels determinadas pelos 20 elementos do sampleArray.";
     divBonus.appendChild(pBonus)
     for(let i =1;i<=array.length;i++){
       let box = document.createElement("div");
@@ -363,7 +363,7 @@ function kataBonus4(array) {
     divBonus.setAttribute("class", "kataBonus");
     let pBonus = document.createElement("p");
     pBonus.setAttribute("class", "pBonus");
-    pBonus.innerText = "BONUS 4";
+    pBonus.innerText = "BONUS 4 - Como no Item #3, mas alternando cores para que retângulo sim, retângulo não seja vermelho.";
     divBonus.appendChild(pBonus)
     for(let i =1;i<=array.length;i++){
       let box = document.createElement("div");
@@ -390,7 +390,7 @@ function kataBonus5(array) {
     divBonus.setAttribute("class", "kataBonus");
     let pBonus = document.createElement("p");
     pBonus.setAttribute("class", "pBonus");
-    pBonus.innerText = "BONUS 5";
+    pBonus.innerText = "BONUS 5 - Como no Item #3, mas pinte os retângulos de largura par de vermelho.";
     divBonus.appendChild(pBonus)
     for(let i =1;i<=array.length;i++){
       let box = document.createElement("div");
