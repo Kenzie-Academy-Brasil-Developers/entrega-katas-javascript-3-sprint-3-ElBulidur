@@ -1,0 +1,111 @@
+body{
+  margin: 0px;
+}
+main{
+  display: flex;
+  flex-flow: column nowrap;
+}
+header{
+  text-align: center;
+  background-color: orange;
+  color: white;
+}
+
+section{
+  width: 100%;
+  height: auto;
+  margin: 0px;
+}
+section h2{
+  width: 100%;
+  margin: 0px;
+  padding-top: 1.4em;
+  box-sizing: border-box;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background-color: orangered;
+}
+
+div.respostas{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+div.kata{
+  width: 47.5vw;
+  margin: .6vh 0px;
+  height: max-content;
+  border: 1px solid red;
+  text-align: center;
+}
+
+div.respostas p{
+  display: block;
+  padding: .5em;
+  box-sizing: border-box;
+  margin: 0px;
+  color: orangered;
+  font-size: 1.5em;
+}
+
+p em{
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 100%;
+  background-color: orangered;
+  color: white;
+}
+
+div.respostas span{
+  display: block;
+  font-size: 1.5em;
+  text-align: center;
+  padding: .4em;
+  border: 2px solid orangered;
+  background-color: orangered;
+  color: white;
+}
+div.extras{
+  width: 100vw;
+  margin: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+div.kataBonus{
+  display: flex;
+  flex-flow: row wrap;
+  width: 99%;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 2px solid orangered;
+}
+
+p.pBonus{
+  width: 100%;
+  height: 20px;
+  margin: 0px;
+  padding: 5px 0px;
+  text-align: center;
+  line-height: 20px;
+  background-color: black;
+  color: white;
+}
+
+footer{
+  height: 10vh;
+  background-color: orange;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer p{
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  line-height: 10vh;
+  color: white;
+  font-size: 1em;
+}
